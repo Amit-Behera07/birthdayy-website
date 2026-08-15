@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>For You ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="home-body">
+
+
+    <!-- MUSIC THAT NEVER STOPS -->
+
+    <audio id="birthdayMusic"
+           src="audio/birthday.mp3"
+           loop></audio>
+
+
+    <!-- MUSIC BUTTON -->
+
+    <button id="musicButton"
+            class="music-button"
+            onclick="toggleMusic()">
+
+        🎵
+
+    </button>
+
+
+    <!-- INTRO SCREEN -->
+
+    <div id="introScreen"
+         class="container">
+
+        <p class="small-text">
+            A little something I made for you...
+        </p>
+
+        <h1>
+            Hey Beautiful ❤️
+        </h1>
+
+        <p class="subtitle">
+            I have a little surprise waiting for you.
+        </p>
+
+        <button onclick="openSurprise()">
+            Open Your Surprise ✨
+        </button>
+
+    </div>
+
+
+    <!-- ALL OTHER PAGES LOAD HERE -->
+
+    <iframe id="surpriseFrame"
+            src=""
+            frameborder="0">
+    </iframe>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
